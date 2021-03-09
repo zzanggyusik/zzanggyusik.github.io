@@ -46,7 +46,8 @@ C언어에서 제공되는 기본 자료형말고 다른 자료를 저장하고 
     }
 
 구조체를 정의하고 변수를 생성해서 데이터를 저장하는 과정이 데이터베이스에서는 schema를 명시한다고 합니다.
-아래는 SQL이라고 데이터베이스에서 사용하는 언어로 schema를 명시하는 과정입니다. 아직 배우진 않았으니까 그냥 이렇구나 정도만 보고 넘어가시면 될 것 같습니다.
+아래는 SQL이라고 데이터베이스에서 사용하는 언어로 schema를 명시하는 과정입니다. 
+아직 배우진 않았으니까 그냥 이렇구나 정도만 보고 넘어가시면 될 것 같습니다.
     CREATE TABLE star_tab( //C언어로 따지면 이 부분에서 구조체를 정의하고 변수까지 만듦
 		name VARCHAR(16),
     	address VARCHAR(32),
@@ -213,9 +214,7 @@ C언어에서는 구조체를 사용해서 배열 형태로 데이터를 저장�
 
 ### Architecture of DBMS
 
-![image-20210309172325783](C:\Users\서민석\AppData\Roaming\Typora\typora-user-images\image-20210309172325783.png)
-
-
+![Architecture of DBMS](./cutewelshcorgi.github.io/_posts/Architecture of DBMS.png)
 
 ### Qureies, Modifications, Schema Modification
 
@@ -263,13 +262,13 @@ transaction 실행을 위해서 필수적으로 요구되는 4가지 요구사�
 
 앞서 설명했던 데로 object - oriented model 는 DBMS에서 별로 도움이 안되서 새로운 모델이 또 나오지 않는 이상 relational model은 계속해서 사용될 것 같고,
 
-Constraints (제약조건), Trigger(트리거)라는 기능이 또 있는데 이는 표준화가 너무 늦게되서 각각의 DBMS 별로 구현되어 있는 상태라 아마 통합되는 방식으로 가지 않을까 .. 싶고 (교수님이 어떻게 될 지는 안 알려주심)
+Constraints (제약조건), Trigger(트리거)라는 기능이 또 있는데 이는 표준화가 너무 늦게되서 각각의 DBMS 별로 구현되어 있는 상태라 아마 통합되는 방식으로 가지 않을까,, 싶고 (교수님이 어떻게 될 지는 안 알려주심)
 
 data warehouse와 data mining이라는 분야가 있는데
 
-data warehouse는 하나의 조직 내에서 다른 DBMS 모델을 사용하는 경우나, 같은 모델을 사용해도 회사가 다른 경우, 부서별로 스키마가 다른 경우 등등 이렇게 DBMS가 다를 경우 전체 데이터를 어떻게 표준화된 데이터로 변환하여 통합할 것인가를 연구하는 것이고
+**data warehouse**는 하나의 조직 내에서 다른 DBMS 모델을 사용하는 경우나, 같은 모델을 사용해도 회사가 다른 경우, 부서별로 스키마가 다른 경우 등등 이렇게 DBMS가 다를 경우 전체 데이터를 어떻게 표준화된 데이터로 변환하여 통합할 것인가를 연구하는 것이고
 
-data mining은 mining이라는 단어 그대로 원래는 금맥을 찾는 것인데, 금맥을 찾을 때 돈이 많이 들기 때문에 땅을 파기전 금맥이 있는 지를 연구하는 것이다.
+data mining에서 mining이라는 단어 그대로 원래는 금맥을 찾는 것인데, 금맥을 찾을 때 돈이 많이 들기 때문에 땅을 파기전 금맥이 있는 지를 연구하는 것이다.
 
-data mining은 이처럼 데이터의 양이 엄청 많을 때 내가 원하는 정보를 어떻게 찾을 것인지 연구하는 것이다.
+**data mining**은 이처럼 데이터의 양이 엄청 많을 때 내가 원하는 정보를 어떻게 찾을 것인지 연구하는 것이다.
 
