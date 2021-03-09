@@ -214,7 +214,7 @@ C언어에서는 구조체를 사용해서 배열 형태로 데이터를 저장�
 
 ### Architecture of DBMS
 
-![Architecture of DBMS](./cutewelshcorgi.github.io/_posts/Architecture of DBMS.png)
+![Architecture of DBMS](./_posts/Architecture of DBMS.png)
 
 ### Qureies, Modifications, Schema Modification
 
