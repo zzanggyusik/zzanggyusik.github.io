@@ -4,6 +4,10 @@
 
 
 
+> 아래 내용은 한밭대학교 김영찬 교수님 데이터베이스 수업을 듣고 정리한 내용입니다.
+
+
+
 ### 데이터베이스 (Database)
 
 오랜 시간동안 저장되고 데이터베이스 관리 시스템(Databse Management System)에 의해서 관리되는 데이터의 모임입니다.
@@ -214,7 +218,7 @@ C언어에서는 구조체를 사용해서 배열 형태로 데이터를 저장�
 
 ### Architecture of DBMS
 
-![Architecture of DBMS](./_posts/Architecture of DBMS.png)
+![Architecture of DBMS](_posts/Architecture of DBMS.png)
 
 ### Qureies, Modifications, Schema Modification
 
