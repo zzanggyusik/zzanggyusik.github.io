@@ -1,6 +1,6 @@
-> 이번 포스트에서는 relational algebra에 대해 다룹니다. 
->
-> 제가 아직 typora로 수식 쓰는게 익숙하지 않아서 수식이 엉망진창이네요 ㅠ 처음 보시는 분들께 혼란을 드릴 수 있으니 이 점 유의하셔서 봐주시면 감사하겠습니다.
+이번 포스트에서는 relational algebra에 대해 다룹니다. 
+
+제가 아직 typora로 수식 쓰는게 익숙하지 않아서 수식이 엉망진창이네요 ㅠ 처음 보시는 분들께 혼란을 드릴 수 있으니 이 점 유의하셔서 봐주시면 감사하겠습니다.
 
 
 
@@ -10,7 +10,7 @@ query(데이터베이스로부터 우리가 원하는 정보를 뽑아내는 것
 
 
 
-아직 Relational model에 대해서 다루진 않았지만 relational model은 우리가 저장하고자 하는 데이터를 <u>**관계**</u>로 나타낸 것입니다.
+아직 Relational model에 대해서 다루진 않았지만 relational model은 우리가 저장하고자 하는 데이터를 **<u>관계</u>**로 나타낸 것입니다.
 
 relational model의 경우 이러한 query를 위한 여러가지 operation들이 모두 수학적으로 정의되어 있습니다. (다른 모델 - hierarchical model, network model등 구현할 순 있지만 수학적으로 정의할 순 없음.)
 
