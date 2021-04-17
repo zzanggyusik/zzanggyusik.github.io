@@ -242,7 +242,7 @@ MovieStudio의 president가 되려면 연봉이 적어도 10,000,000$ 이상이�
 
 **Studio(<u>title</u>, <u>year</u>, length, genre, studioName, presCNo)**
 
-**MovieExec(certNo, name, address, netWorth)**
+**MovieExec(<u>certNo</u>, name, address, netWorth)**
 
 두 개의 테이블이 있을 때, 다음과 같이 표현할 수 있습니다. (둘 다 동일한 표현)
 
