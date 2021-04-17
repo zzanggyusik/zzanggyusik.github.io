@@ -251,3 +251,8 @@ MovieStudio의 president가 되려면 연봉이 적어도 10,000,000$ 이상이�
 **π presCNo(Studio) ⊆ π certNo(σ netWorth≥10000000(MovieExec))**
 
 Studio의 presCNo를 projection한 결과가 MovieExec에서 netWorth가 10000000 이상인 것들을 selection한 다음 certNo에 대해 projection한 결과의 부분집합이어야 한다.
+
+
+
+데이터베이스 설계에 있어서 <u>**schema를  설계하는 것**</u>과 **<u>데이터가 지켜야할 제약 조건</u>**을 표현하는 건 굉장히 중요하기 때문에 잘 정리해야겠습니다.
+
