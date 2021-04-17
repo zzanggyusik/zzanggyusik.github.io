@@ -67,7 +67,7 @@
 
 이렇게 natural join할 경우 attribute가 title, year, length, filmType, studioName, starName을 갖는 table이 하나 생성되는데 Movie1과 Movie2의 title, year가 같은 tuple만 살아남습니다.
 
-**Movie1 ⨝ Movie2 **
+**Movie1 ⨝ Movie2** 
 
 | title | year | length | filmType | studioName | starName |
 | :---: | :--: | :----: | :------: | :--------: | :------: |
@@ -198,7 +198,7 @@ relational algebra로 제약조건을 표현하는 것을 알아보도록 하겠
 
 *+다대일 관계를 어떻게 알 수 있냐면 foreign key(외래키 - 일인쪽 테이블의 key를 다인쪽 테이블로 보내는 것을 말한다.)를 보고 알 수 있는데, 나중에 다룰 내용이라 그냥 넘어가도 좋다.*
 
-<u>**만약 Movie 테이블의 producerNo에 101번이 존재한다면 MovieExec에도 101번 certNo가 존재해야한다는게 Referential Integrity다.**</u>
+**<u>만약 Movie 테이블의 producerNo에 101번이 존재한다면 MovieExec에도 101번 certNo가 존재해야한다는게 Referential Integrity다.</u>**
 
 
 
@@ -210,7 +210,7 @@ relational algebra로 제약조건을 표현하는 것을 알아보도록 하겠
 
 MovieStar(<u>name</u>, address, gender, birthdate)
 
-<u>**MovieStar에 대해 name을 key값으로 설정시 name이 같은 tuple은 존재할 수 없다는게 Key Constraints이다.**</u>
+**<u>MovieStar에 대해 name을 key값으로 설정시 name이 같은 tuple은 존재할 수 없다는게 Key Constraints이다.</u>**
 
 
 
@@ -254,5 +254,5 @@ Studio의 presCNo를 projection한 결과가 MovieExec에서 netWorth가 1000000
 
 
 
-데이터베이스 설계에 있어서 <u>**schema를  설계하는 것**</u>과 **<u>데이터가 지켜야할 제약 조건</u>**을 표현하는 건 굉장히 중요하기 때문에 잘 정리해야겠습니다.
+데이터베이스 설계에 있어서 <u>**schema를  설계하는 것**</u>과 <u>**데이터가 지켜야할 제약 조건**</u>을 표현하는 건 굉장히 중요하기 때문에 잘 정리해야겠습니다.
 
