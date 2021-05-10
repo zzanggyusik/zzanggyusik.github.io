@@ -30,4 +30,3 @@
         {% endunless %}
       {% endfor %}
     </urlset>
-    
