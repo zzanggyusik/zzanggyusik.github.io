@@ -316,5 +316,5 @@ analytics:
   provider               : "google-gtag" 
                           # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-BXW1J79V9X"
+    tracking_id          : "UA-198918754-1"
     anonymize_ip         : # true, false (default)
