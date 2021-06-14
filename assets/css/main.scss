@@ -6,15 +6,8 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import '@kfonts/nanum-handwritting-neulisneulische';
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 
 .utterances {
   max-width: 100% !important;
-}
-
-@font-face {
-    font-family: 'SlowSlow';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/SlowSlow.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
