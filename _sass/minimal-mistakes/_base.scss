@@ -355,3 +355,12 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* devinlife comment: 구글 애드 센스의 아래 바 레이아웃 삭제 */
+ins.adsbygoogle {
+  border-bottom: none !important;
+}
+
+del a {
+  color: inherit;
+}
