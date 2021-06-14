@@ -280,14 +280,6 @@ defaults:
       comments: # true
       share: true
       related: true
-      
-# Comments
-comments:
-  provider    : "disqus"                                # comment 처리 사이트 명칭 기재
-              # false (default), "disqus", "discourse", "facebook"
-              # "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname : "cutewelshcorgi-github-io"                    # disqus의 shortname 기재
      
 # Defaults
 defaults:
