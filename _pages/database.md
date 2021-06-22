@@ -1,6 +1,6 @@
 ---
 title: "Database"
-permalink: /categories/database/
+permalink: /categories/Database/
 layout: category
 author_profile: true
 taxonomy: Database
