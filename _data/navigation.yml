@@ -2,6 +2,8 @@
 main:
   - title: "Categoies"
     url: /categories/
+  - title : "Machine Learning"
+  - url: /categories/machine learning/
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
