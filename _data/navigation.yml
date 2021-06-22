@@ -3,6 +3,6 @@ main:
   - title: "Categoies"
     url: /categories/
   - title: "Database"
-    url: /categories/database/
+    url: /categories/Database/
   - title: "Machine Learning"
-    url: /categories/machine learning/
+    url: /categories/Machine Learning/
