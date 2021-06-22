@@ -3,7 +3,9 @@ main:
   - title: "Categoies"
     url: /categories/
   - title : "Machine Learning"
-  - url: /categories/machine learning/
+    url: /categories/machine learning/
+  - title : "Database"
+    url: /categories/database/
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
