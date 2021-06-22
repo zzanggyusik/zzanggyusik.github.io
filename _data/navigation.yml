@@ -2,3 +2,5 @@
 main:
   - title: "Categoies"
     url: /categories/
+  - title: "Database"
+    url: /categories/database/
