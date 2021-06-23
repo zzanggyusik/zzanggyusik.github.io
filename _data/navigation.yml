@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Categoies"
-   url: /categories/
+    url: /categories/
   - title: "Database"
     url: /categories/Database/
   - title: "Machine Learning"
