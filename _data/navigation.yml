@@ -6,3 +6,6 @@ main:
     url: /categories/Database/
   - title: "Machine Learning"
     url: /categories/Machine Learning/
+  - title: "."
+    url: /categories/./
+
