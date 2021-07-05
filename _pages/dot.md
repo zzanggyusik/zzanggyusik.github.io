@@ -1,7 +1,7 @@
 ---
 title: "."
-permalink: /categories/./
+permalink: /categories/dot/
 layout: category
 author_profile: true
-taxonomy: .
+taxonomy: dot
 ---
