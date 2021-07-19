@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name : "Blogger"
-  avatar : "/assets/seominseok.jpeg"
+  # avatar : "/assets/seominseok.jpeg"
   bio : "**Seo Minseok**"
   location : "Sejong, Korea"
   email :
