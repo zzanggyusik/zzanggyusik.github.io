@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "서민석의 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Blogger"
-description              : "서민석"
+name                     : "서민석"
+description              : "컴퓨터공학, 일상"
 url                      : "https://seominseok4834.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "seominseok4834/comments"
@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name : "Blogger"
+  name : "서민석"
   avatar : "/assets/seominseok.jpg"
-  bio : "**서민석**"
+  bio : "**컴퓨터공학, 일상**"
   location : "Sejong, Korea"
   email :
   links:
