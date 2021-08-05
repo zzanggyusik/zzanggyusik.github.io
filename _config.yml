@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minseok's Blog"
+title                    : "서민석의 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Blogger"
-description              : "Seo Minseok"
+description              : "서민석"
 url                      : "https://seominseok4834.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "seominseok4834/comments"
