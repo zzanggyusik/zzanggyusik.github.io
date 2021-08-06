@@ -20,7 +20,7 @@ title                    : "서민석의 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "서민석"
-description              : "컴퓨터공학, 일상"
+description              : # "컴퓨터공학, 일상"
 url                      : "https://seominseok4834.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "seominseok4834/comments"
