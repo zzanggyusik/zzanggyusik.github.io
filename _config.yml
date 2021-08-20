@@ -313,4 +313,4 @@ analytics:
     tracking_id          : "G-RB4L2SLK32"
     anonymize_ip         : # true, false (default)
 
-category_list: [ database, machine learning ]
+category_list: [ algorithm, database, dot, machine learning, project ]
