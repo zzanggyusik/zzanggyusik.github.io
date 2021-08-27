@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name : "서민석"
-  avatar : # "/assets/seominseok.jpg"
+  avatar : "/assets/seominseok.jpg"
   bio : # "**컴퓨터공학, 일상**"
   location : "South Korea"
   email :
