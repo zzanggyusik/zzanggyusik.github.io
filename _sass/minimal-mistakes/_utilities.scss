@@ -79,14 +79,6 @@ body:hover .visually-hidden button {
   list-style: none;
 }
 
-.social-icons {
-  ...
-  .fa-comment {
-    color: #FDDC3F;   // 노랑색
-  }
-  ...
-}
-
 /*
    Type
    ========================================================================== */
@@ -331,6 +323,11 @@ body:hover .visually-hidden button {
   .fa-xing,
   .fa-xing-square {
     color: $xing-color;
+  }
+  
+  // 카카오톡 공유 버튼
+  .fa-comment {
+    color: #FDDC3F;   // 노랑색
   }
 }
 
