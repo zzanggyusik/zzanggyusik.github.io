@@ -42,11 +42,25 @@ layout: default
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+  
+        <br>
+        
+      <div class="donation-btn">
+        <a href="https://qr.kakaopay.com/FHWIlDnOx" class="btn btn--kakaopay">
+          <i class="fa-fw fas fa-coffee" aria-hidden="true"></i>
+          <span>buy me a coffee</span>
+        </a>
+        <a href="https://toss.me/seominseok" class="btn btn--toss">
+          <i class="fa-fw fas fa-coffee" aria-hidden="true"></i>
+          <span>buy me a coffee</span>
+        </a>
+      </div>
+        
       </section>
 
       <footer class="page__meta">
         <div class="notice">
-          방문해 주셔서 감사합니다. 피드백 언제나 환영합니다 😎
+         댓글, 피드백 환영합니다 😎
         </div>
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
