@@ -314,3 +314,5 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 category_list: [ algorithm, database, dot, machine learning, project ]
+
+future: true
