@@ -316,3 +316,4 @@ analytics:
 category_list: [ algorithm, database, dot, machine learning, project ]
 
 future: true
+dark_theme_toggle: true
