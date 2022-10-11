@@ -10,3 +10,7 @@
 @import "minimal-mistakes"; // main partials
 
 @import "custom/customOverride.scss";
+
+.utterances {
+  max-width: 100% !important;
+}
