@@ -20,14 +20,14 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "en-US"
-title                    : "서민석의 블로그"
+title                    : "규짱의 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "서민석"
+name                     : "규짱"
 description              : "컴퓨터공학, 일상"
-url                      : "https://seominseok4834.github.io"
+url                      : "https://zzanggyusik.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "seominseok4834/comments"
+repository               : "zzanggyusik/comments"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -98,7 +98,7 @@ analytics:
 
 # Site Author
 author:
-  name : "서민석"
+  name : "zzanggyusik"
   avatar : "/assets/welshcorgi2.jpg"
   bio : # "**컴퓨터공학, 일상**"
   location : "South Korea"
@@ -106,7 +106,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:seominseok4834@gmail.com"
+      url: "mailto:zzanggyusik@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -118,10 +118,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/seominseok4834"
+      url: "https://github.com/zzanggyusik"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      #url: "https://instagram.com/"
 
 # Site Footer
 footer:
